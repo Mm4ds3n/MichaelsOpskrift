@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Roboto, sans-serif;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+   grid-template-areas: 'header header header header header header'
+                        '#Billede #Opskrift #Opskrift #Opskrift #Fremgangsmåde #Fremgangsmåde'
+                        'menu #Tilberedningstid #Tilberedningstid #Tilberedningstid #Tilberedningstid #Tilberedningstid';
     gap: 50px    ;
     padding: 50px;
-justify-content: first baseline;
-}
-
+text-align: center;}
+   
 body {
     background-color: cadetblue;
 }
